@@ -38,14 +38,15 @@
     height: 100%;
 }
 
-.vertical-row {
+.row .vertical-row {
     flex-direction: column;
     height: 150px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .items {
     background-color: rgb(59, 225, 108);
+    border: none;
 }
 
 .col-12 .space {
