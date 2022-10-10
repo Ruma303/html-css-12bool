@@ -18,8 +18,7 @@
     justify-content: center;
     align-items: center;
     border: solid white 1px;
-    /* padding: 1rem; */
-    /* max-width: 100%; */
+    width: 100%;
 }
 
 [class*=col-offset] {
@@ -33,7 +32,28 @@
     background-color: rgb(59, 225, 108);
     margin: 0 auto;
     border: none;
-    flex: 1 0 auto;
+    flex-grow: 1;
     text-align: center;
-    padding: .5rem;
+    margin: .1rem .1rem;
+    height: 100%;
+}
+
+.vertical-row {
+    flex-direction: column;
+    height: 150px;
+    /* flex-wrap: wrap; */
+}
+
+.items {
+    background-color: rgb(59, 225, 108);
+}
+
+.col-12 .space {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-12 .between {
+    display: flex;
+    justify-content: space-between;
 }
