@@ -68,20 +68,8 @@
     padding: 0 1rem;
 }
 
-
-
 .items {
     background-color: rgb(59, 225, 108);
     border: none;
     height: 30px;
-}
-
-.col-12 .space {
-    display: flex;
-    justify-content: space-around;
-}
-
-.col-12 .between {
-    display: flex;
-    justify-content: space-between;
 }

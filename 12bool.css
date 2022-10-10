@@ -121,3 +121,15 @@
 .offset-12 {
     margin-left: calc((100% / 12) * 12);
 }
+
+
+
+.around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
