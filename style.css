@@ -5,7 +5,6 @@
 }
 
 .row {
-    justify-content: center;
     align-items: center;
     width: 100%;
 }
@@ -72,4 +71,8 @@
     background-color: rgb(59, 225, 108);
     border: none;
     height: 30px;
+}
+
+.row .between {
+    padding: 0 1rem;
 }
